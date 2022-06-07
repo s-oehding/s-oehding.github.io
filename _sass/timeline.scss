@@ -1,0 +1,82 @@
+$color-bg-discs: #ffebeb;
+$color-timeline: #fe4747;
+$color-bg-page: #f6f6f6;
+
+$timeline-line-width: 1px; // Width of the timeline line.
+$timeline-left-margin: 2em; // Distance on the left of the line.
+$timeline-left-padding: 2em; // Distance between the line and the text.
+$timeline-bottom-padding: 3em; // Length of the line below the last item.
+$timeline-bullet-width: .7em; // Diameter of the bullet point on the timeline.
+
+
+.timeline-title {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.timeline-item {
+  margin-bottom: -3rem;
+  border-left: solid 2px #ccc;
+  display: flex;
+  height: 100%;
+  
+  h3 {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    position: relative; // To put the bullet in absolute;
+    
+    
+  }
+
+  border-left: solid 2px #ccc;
+
+  &::before {
+    content: '';
+    position: relative;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    background-color: #2c3e50;
+    /* top: 10px; */
+    left: -21px;
+  }
+  // &::after {
+  //     content: '';
+  //     position: absolute;
+  //     border: solid 8px;
+  //     border-color: transparent #ccc transparent transparent;
+  //     top: 10px;
+  //     left: -17px;
+  // }
+}
+
+// .timeline-items {
+//   margin: $timeline-left-margin;
+//   padding: 0.01em 0 $timeline-bottom-padding $timeline-left-padding;
+//   border-left: $timeline-line-width solid $color-timeline;
+// }
+
+// .timeline-item {
+//   margin-bottom: -3rem;
+  
+//   time {
+//     display: block; // instead of inline, so that we can apply margins.
+//     float: left; // to avoid having a width of 100%.
+//     background-color: $color-bg-discs;
+//     padding: .2em .4em;
+//   }
+  
+//   & > * {
+//     margin: 1em 0;
+//   }
+  
+//   .location {
+//     clear: both; // To clear the float of the <time> element above.
+//     font-size: 0.85em;
+//     font-style: italic;
+//   }
+// }
