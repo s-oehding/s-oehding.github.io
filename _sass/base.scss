@@ -151,8 +151,7 @@ body {
   font-family: Roboto, sans-serif;
   -webkit-font-smoothing: antialiased; 
   background-color: rgba(0,0,0,0);
-  opacity: 0.8;
-  background-image:  linear-gradient(rgba(214, 214, 214, 0.2) 2px, transparent 2px), linear-gradient(90deg, rgba(214, 214, 214, 0.2) 2px, transparent 2px), linear-gradient(rgba(214, 214, 214, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(214, 214, 214, 0.2) 1px, rgba(0,0,0,0) 1px);
+  background-image:  linear-gradient(rgba(214, 214, 214, 0.125) 2px, transparent 2px), linear-gradient(90deg, rgba(214, 214, 214, 0.125) 2px, transparent 2px), linear-gradient(rgba(214, 214, 214, 0.125) 1px, transparent 1px), linear-gradient(90deg, rgba(214, 214, 214, 0.125) 1px, rgba(0,0,0,0) 1px);
   background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
