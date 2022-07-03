@@ -2,14 +2,19 @@
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
 
     <div class="row timeline-row col-sm-12 col-md-6">
-      <div class="col-sm-12 col-md-5 col-print-12 daterange">
+      <div class="col-sm-12 col-md-5 col-print-12 hidden-sm hidden-xs daterange">
         {%- if item.daterange -%}<p>{{ item.daterange }}</p>{%- endif -%}
       </div>
       <div class="col-md-1 hidden-sm hidden-xs timeline-item"> </div>
       <div class="col-sm-12 col-md-6 col-print-12 details mb-sm-2">
         <h4 class="" id="{{ item.title | slugify }}">{{ item.title }}</h4>
         {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+        
         {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+        <div class="hidden-md hidden-lg">
+          {%- if item.daterange -%}<p>{{ item.daterange }}</p>{%- endif -%}
+        </div>
   
         {%- if item.link -%}
           {% include a.html href=item.link class="link" %}

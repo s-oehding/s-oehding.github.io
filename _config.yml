@@ -12,7 +12,7 @@ email: soeren.oehding@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: https://soeren.oehding.de/
+website: soeren.oehding.de
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -76,8 +76,8 @@ content:
     content:
       - layout: left
         title: Mondia
-        sub_title: Senior Fullstack Developer</br>[Lead Developer]
-        caption: 03/2020 - present
+        sub_title: Senior Fullstack Developer</br>
+        caption: [Lead Developer]
         daterange: 03/2020 - present
         link: https://mondia.com
         quote: >
@@ -97,7 +97,7 @@ content:
       - layout: left
         title: Mondia
         sub_title: Senior Frontend Developer
-        caption: 03/2019 - 03/2020
+        caption:
         daterange: 03/2019 - 03/2020
         link: https://mondia.com
         quote:
@@ -115,7 +115,7 @@ content:
       - layout: left
         title: WERK4 NEUE MEDIEN
         sub_title: Web Developer
-        caption: 10/2017 - 03/2019
+        caption:
         daterange: 10/2017 - 03/2019
         link: https://werk4.net
         quote: >
@@ -134,7 +134,7 @@ content:
       - layout: left
         title: GRES SPANIENFLIESEN
         sub_title: Frontend Developer
-        caption: 10/2015 - 02/2017
+        caption:
         daterange: 10/2015 - 02/2017
         link: https://spanienfliesen.de
         quote:
@@ -152,7 +152,7 @@ content:
       - layout: left
         title: INNOVATIVE TRAINING SYSTEMS
         sub_title: Frontend Developer
-        caption: 04/2013 - 10/2015
+        caption:
         daterange: 04/2013 - 10/2015
         link: https://suprfit.com/
         quote:
@@ -172,7 +172,7 @@ content:
       - layout: top-left
         title: Diploma FH Nordhessen
         sub_title: "-"
-        caption: 12/2014 - 12/2018
+        caption:
         daterange: 12/2014 - 12/2018
         quote:
         description: | # this will include new lines to allow paragraphs
@@ -180,7 +180,7 @@ content:
       - layout: top-left
         title: SAE Hamburg
         sub_title: Diploma
-        caption: 06/2006 - 12/2009
+        caption:
         daterange: 06/2006 - 12/2009
         quote:
         description: | # this will include new lines to allow paragraphs
