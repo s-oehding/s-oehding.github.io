@@ -3,13 +3,13 @@
 
     <div class="row timeline-row col-sm-12 col-md-6">
       <div class="col-sm-12 col-md-5 col-print-12 daterange">
-        {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+        {%- if item.daterange -%}<p>{{ item.daterange }}</p>{%- endif -%}
       </div>
       <div class="col-md-1 hidden-sm hidden-xs timeline-item"> </div>
       <div class="col-sm-12 col-md-6 col-print-12 details mb-sm-2">
         <h4 class="" id="{{ item.title | slugify }}">{{ item.title }}</h4>
         {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
-        <!-- {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%} -->
+        {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
   
         {%- if item.link -%}
           {% include a.html href=item.link class="link" %}

@@ -8,11 +8,11 @@ version: 2
 # Personal info
 name: Sören Oehding
 title: Lead Developer @Mondia
-# email: Your email (optional)
+email: soeren.oehding@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
+website: https://soeren.oehding.de/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -30,7 +30,7 @@ linkedin_username: soehding
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
-# orcid_username: 0000-0000-0000-0000
+orcid_username: 0000-0003-3511-7121
 # googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
@@ -78,6 +78,7 @@ content:
         title: Mondia
         sub_title: Senior Fullstack Developer</br>[Lead Developer]
         caption: 03/2020 - present
+        daterange: 03/2020 - present
         link: https://mondia.com
         quote: >
           Mondia, through its three businesses Mondia Pay, Mondia Digital and Mondia Innovation provides access to over 1.5bn consumers through more than 85+ mobile operators across 75+ countries.
@@ -97,6 +98,7 @@ content:
         title: Mondia
         sub_title: Senior Frontend Developer
         caption: 03/2019 - 03/2020
+        daterange: 03/2019 - 03/2020
         link: https://mondia.com
         quote:
         description: | # this will include new lines to allow paragraphs
@@ -114,6 +116,7 @@ content:
         title: WERK4 NEUE MEDIEN
         sub_title: Web Developer
         caption: 10/2017 - 03/2019
+        daterange: 10/2017 - 03/2019
         link: https://werk4.net
         quote: >
           Werk4 evolved from a traditional advertising agency to an award-winning hybrid agency. The cross-border and valuable thinking of their top-trained staff delivers creative solutions across all media channels.
@@ -132,6 +135,7 @@ content:
         title: GRES SPANIENFLIESEN
         sub_title: Frontend Developer
         caption: 10/2015 - 02/2017
+        daterange: 10/2015 - 02/2017
         link: https://spanienfliesen.de
         quote:
         description: | # this will include new lines to allow paragraphs
@@ -149,6 +153,7 @@ content:
         title: INNOVATIVE TRAINING SYSTEMS
         sub_title: Frontend Developer
         caption: 04/2013 - 10/2015
+        daterange: 04/2013 - 10/2015
         link: https://suprfit.com/
         quote:
         description: | # this will include new lines to allow paragraphs
@@ -168,6 +173,7 @@ content:
         title: Diploma FH Nordhessen
         sub_title: "-"
         caption: 12/2014 - 12/2018
+        daterange: 12/2014 - 12/2018
         quote:
         description: | # this will include new lines to allow paragraphs
           GRAPHICS & DESIGN - FOCUS ON DIGITAL APPLICATIONS
@@ -175,6 +181,7 @@ content:
         title: SAE Hamburg
         sub_title: Diploma
         caption: 06/2006 - 12/2009
+        daterange: 06/2006 - 12/2009
         quote:
         description: | # this will include new lines to allow paragraphs
           AUDIO ENGINEERING & DIGITAL MEDIA
@@ -195,8 +202,8 @@ content:
           </div>
       </div>
 # Footer
-footer_show_references: false
-# references_title: References on request (Override references text)
+footer_show_references: true
+references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
