@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Sören Oehding
-title: Lead Developer @Mondia
+title: Lead Developer @Mondia Group
 email: soeren.oehding@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -48,9 +48,10 @@ additional_links:
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile-cat.jpg
+# about_content: | # this will include new lines to allow paragraphs
+#   I'm a fullstack software engineer specializing in building and designing distributed services. Big passion for Devops culture and 'you build it you run it' methodology. I like to inspire other developers to not only develop but also own and maintain their projects. To think outside the box and not be afraid of what comes after the development phase. It doesn't just run on your machine and everyone should understand what happens after ;)
 about_content: | # this will include new lines to allow paragraphs
-  I'm a fullstack software engineer specializing in building and designing distributed services. Big passion for Devops culture and 'you build it you run it' methodology. I like to inspire other developers to not only develop but also own and maintain their projects. To think outside the box and not be afraid of what comes after the development phase. It doesn't just run on your machine and everyone should understand what happens after ;)
-
+    I'm a fullstack software engineer specializing in building and designing distributed services. I like to think outside the box and discover and learn new things on a frequent basis. 
 content:
   # - title: Projects # Title for the section
   #   layout: list # Type of content section (list/text)
@@ -75,7 +76,7 @@ content:
     layout: timeline
     content:
       - layout: left
-        title: Mondia
+        title: Mondia Group
         sub_title: Senior Fullstack Developer</br>
         caption: [Lead Developer]
         daterange: 03/2020 - present
@@ -95,7 +96,7 @@ content:
           <mark>Jenkins</mark> <mark>Nomad</mark> <mark>Consul</mark> <mark>Traefik</mark>
 
       - layout: left
-        title: Mondia
+        title: Mondia Group
         sub_title: Senior Frontend Developer
         caption:
         daterange: 03/2019 - 03/2020
@@ -161,7 +162,6 @@ content:
           Frontend development for Magento based online shops B2B and B2C.
           Connecting the online shops to ERP systems and interfaces to shipping and payment service providers.
           Supervision / design WordPress.
-
 
           **TECHSTACK:**<br>
           <mark>JavaScript</mark> <mark>gulp</mark> <mark>Sass/Less</mark>
