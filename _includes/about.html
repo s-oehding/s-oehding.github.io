@@ -8,7 +8,7 @@
     {%- endif -%}
   <h3 id="{{ site.about_title | slugify | default: 'about-me' }}">{{ site.about_title | default:
   "About Me" }}</h3>
-  <div class="row clearfix">
+  <div class="row clearfix" style="display: flex; align-items: center;">
     {%- if site.about_profile_image -%}
       <div class="col-xs-12 col-sm-4 col-md-3 hidden-xs hidden-sm no-print">
         <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
