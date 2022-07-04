@@ -80,7 +80,7 @@ content:
         sub_title: Senior Fullstack Developer</br>
         caption: [Lead Developer]
         daterange: 03/2020 - present
-        link: https://mondia.com
+        link: mondia.com
         quote: >
           Mondia, through its three businesses Mondia Pay, Mondia Digital and Mondia Innovation provides access to over 1.5bn consumers through more than 85+ mobile operators across 75+ countries.
         description: | # this will include new lines to allow paragraphs
@@ -100,7 +100,7 @@ content:
         sub_title: Senior Frontend Developer
         caption:
         daterange: 03/2019 - 03/2020
-        link: https://mondia.com
+        link: mondia.com
         quote:
         description: | # this will include new lines to allow paragraphs
           **RESPONSIBILITIES:**<br>
@@ -118,7 +118,7 @@ content:
         sub_title: Web Developer
         caption:
         daterange: 10/2017 - 03/2019
-        link: https://werk4.net
+        link: werk4.net
         quote: >
           Werk4 evolved from a traditional advertising agency to an award-winning hybrid agency. The cross-border and valuable thinking of their top-trained staff delivers creative solutions across all media channels.
         description: | # this will include new lines to allow paragraphs
@@ -137,7 +137,7 @@ content:
         sub_title: Frontend Developer
         caption:
         daterange: 10/2015 - 02/2017
-        link: https://spanienfliesen.de
+        link: spanienfliesen.de
         quote:
         description: | # this will include new lines to allow paragraphs
           **RESPONSIBILITIES:**<br>
@@ -155,7 +155,7 @@ content:
         sub_title: Frontend Developer
         caption:
         daterange: 04/2013 - 10/2015
-        link: https://suprfit.com/
+        link: suprfit.com
         quote:
         description: | # this will include new lines to allow paragraphs
           **RESPONSIBILITIES:**<br>
