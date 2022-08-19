@@ -47,11 +47,11 @@ gtm: "GTM-54WBNR4"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpeg
+about_profile_image: images/profile.png
 # about_content: | # this will include new lines to allow paragraphs
 #   I'm a fullstack software engineer specializing in building and designing distributed services. Big passion for Devops culture and 'you build it you run it' methodology. I like to inspire other developers to not only develop but also own and maintain their projects. To think outside the box and not be afraid of what comes after the development phase. It doesn't just run on your machine and everyone should understand what happens after ;)
 about_content: | # this will include new lines to allow paragraphs
-    I'm a fullstack software engineer specializing in building and designing distributed services. I like to think outside the box and discover and learn new things on a frequent basis. 
+  I'm a fullstack software engineer specializing in building and designing distributed services. I like to think outside the box and discover and learn new things on a frequent basis.
 content:
   # - title: Projects # Title for the section
   #   layout: list # Type of content section (list/text)
