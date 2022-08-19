@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Sören Oehding
 title: Lead Developer @Mondia Group
-email: soeren.oehding@gmail.com
+email: soeren@oehding.de
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
@@ -47,7 +47,7 @@ gtm: "GTM-54WBNR4"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.png
+about_profile_image: images/profile_blue_grey_gradient_bg.png
 # about_content: | # this will include new lines to allow paragraphs
 #   I'm a fullstack software engineer specializing in building and designing distributed services. Big passion for Devops culture and 'you build it you run it' methodology. I like to inspire other developers to not only develop but also own and maintain their projects. To think outside the box and not be afraid of what comes after the development phase. It doesn't just run on your machine and everyone should understand what happens after ;)
 about_content: | # this will include new lines to allow paragraphs
